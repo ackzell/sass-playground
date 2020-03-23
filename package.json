@@ -1,0 +1,22 @@
+{
+    "name": "checkboxes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "npx servor --reload",
+        "css": "npx sass ./scss:./css --watch",
+        "dev": "npx concurrently \"npm:css\" \"npm:serve\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "prettier": "^2.0.1",
+        "sass": "^1.25.0",
+        "servor": "^3.1.0",
+        "stylelint": "^13.2.1",
+        "stylelint-config-standard": "^20.0.0"
+    }
+}
